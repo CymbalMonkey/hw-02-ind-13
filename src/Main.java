@@ -82,13 +82,33 @@ public class Main {
 
     public static void task6 () {
         System.out.println("Задача 6");
+        var boxerOneWeight = 78.2;
+        var boxerTwoWeight = 82.7;
+        var totalWeight = boxerOneWeight + boxerTwoWeight;
+        System.out.println("Общий вес двух бойцов = " + totalWeight + " кг");
+        var weightDifference = boxerTwoWeight - boxerOneWeight;
+        System.out.println("Разница в весе между бойцами = " + weightDifference + " кг");
     }
 
     public static void task7 () {
         System.out.println("Задача 7");
+        var boxerOneWeight = 78.2;
+        var boxerTwoWeight = 82.7;
+        var weightDifference = boxerTwoWeight - boxerOneWeight;
+        System.out.println("Разница в весе между бойцами = " + weightDifference + " кг");
+        var excessWeight = boxerTwoWeight % boxerOneWeight;
+        System.out.println("Перевес второго бойца = " + excessWeight + " кг!");
     }
 
     public static void task8 () {
         System.out.println("Задача 8");
+        var totalWorkHours = 640;
+        var employeeWorkHours = 8;
+        var numberOfEmployees = totalWorkHours / employeeWorkHours;
+        System.out.println("Всего работников в компании - " + numberOfEmployees + " человек");
+        var personnelIncrease = numberOfEmployees + 94;
+        System.out.println("Увеличенное количество сотрудников - " + personnelIncrease + " человек");
+        var newTotalHours = personnelIncrease * 8;
+        System.out.println("Если в компании работает 174 человека, то всего " + newTotalHours + " часа работы может быть поделено между сотрудниками");
     }
 }
